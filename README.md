@@ -1,23 +1,20 @@
-# Konum Takip Backend
+# Konum Takip Frontend (Next.js)
 
-## Proje Açıklaması
-Bu proje kullanıcıların konum verilerini işleyen bir backend uygulamasıdır.
-
-## Kullanılan Teknolojiler
-- Node.js
-- NestJS
-- Prisma
-- PostgreSQL
+Bu proje, kullanıcı konumunu harita üzerinde gösteren bir Next.js uygulamasıdır.
 
 ## Özellikler
-- Konum verisi alma
-- Veritabanına kaydetme
-- API ile veri sunma
+- Kullanıcının gerçek zamanlı konumunu alma (Geolocation API)
+- Harita üzerinde konum gösterme (React Leaflet)
+- Adres arama ve harita entegrasyonu
+
+## Kullanılan Teknolojiler
+- Next.js
+- React
+- TypeScript
+- Leaflet
 
 ## Kurulum
 
-npm install  
-npm run start
-
-## Not
-Bu proje backend servisidir ve frontend ile birlikte çalışır.
+```bash
+npm install
+npm run dev
